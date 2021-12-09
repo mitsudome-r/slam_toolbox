@@ -4080,6 +4080,11 @@ public:
     Update();
   }
 
+  inline void SetScanDataSize(std::size_t size)
+  {
+    m_NumberOfRangeReadings = size;
+  }
+
   virtual kt_bool Validate()
   {
     Update();
